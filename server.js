@@ -13,7 +13,7 @@ const htmlRoutes = require("./routes/htmlRoutes")(app);
 
 
 
-PORT = 3005;
+var PORT = process.env.PORT || 3005;
 
 
 
